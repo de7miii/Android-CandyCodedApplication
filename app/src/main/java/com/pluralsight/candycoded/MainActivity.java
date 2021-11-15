@@ -58,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
           @Override
           public void onFailure(int statusCode, Header[] headers, String response, Throwable throwable) {
             Log.e("AsyncHttpClient", "response = " + response);
+            Log.e("AsyncHttpClient", "statusCode = " + statusCode);
           }
 
           @Override
